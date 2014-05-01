@@ -1,0 +1,14 @@
+<div class="menu">
+    <div class="page-end-line"></div>
+
+    <div class="menu-items">
+        <div id="{{item.id}}" ng-class="selectedMenuItem === item.id ? 'menu-item menu-item-selected' : 'menu-item'"
+                ng-repeat="item in menuItems" ng-click="go(item.url)">
+            {{item.name}}
+        </div>
+    </div>
+
+    <div class="logo">
+        <img src="images/r2g-logo.png" class="logo"/>
+    </div>
+</div>

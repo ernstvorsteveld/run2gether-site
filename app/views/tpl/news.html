@@ -1,0 +1,14 @@
+<div class="news-list">
+    <accordion>
+        <accordion-group heading="{{newsItem.date}}: {{newsItem.title}}"
+                         ng-repeat="newsItem in newsItems | orderBy:'date':true"
+                         title="{{newsItem.title}}">
+            <div id="newsitem-{{newsItem.id}}" class="menu-item" ng-click="goNews({{newsItem.id}})">
+                <a href="../../index.html#/news/{{newsItem.id}}">{{newsItem.info}}</a>
+            </div>
+
+            <img src="{{newsItem.image}}" class="news-item-image"/>
+        </accordion-group>
+    </accordion>
+</div>
+

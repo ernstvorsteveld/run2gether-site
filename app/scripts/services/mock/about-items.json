@@ -1,0 +1,60 @@
+{
+    "title": "About us",
+    "image": "http://www.run2gether.nl/cms/images/stories/2013/maarten-signeert1.png",
+    "contentItems": [
+        {
+            "title": "",
+            "item": 1,
+            "contents": [
+                {
+                    "content": "Onze loopgroep is in 2004 ontstaan uit gemotiveerde hardlopers die na een Start to Run cursus, gezellig in groepsverband zijn blijven lopen."
+                }
+            ]
+        },
+        {
+            "title": "Wat doen we?",
+            "item": 2,
+            "contents": [
+                {
+                    "content": "Onder begeleiding van gediplomeerde trainers, gezellig en verantwoord hardlopen in groepsverband. We bieden een afwisselend trainingsprogramma. We wijzen je er wel op dat je goed naar je eigen lichaam moet luisteren, meelopen is dan ook altijd op eigen verantwoording. Onze doelstelling: gezellig en sportief samen actief bezig zijn!."
+                }
+            ]
+        },
+        {
+            "title": "Wat vragen we van jou?",
+            "item": 3,
+            "contents": [
+                {
+                    "content": "Enige loopervaring is gewenst als je met de basisgroep wilt mee trainen. Dit betekent dat je bijvoorbeeld de “Start-To-Run Cursus” van de Atletiekunie, bijvoorbeeld via Climax, hebt gevolgd of in ieder geval in staat bent om ongeveer een half uur achter elkaar te kunnen hardlopen. Voor meer informatie over de start-to-run cursussen in de omgeving verwijzen wij je graag naar de website van de Atletiekunie."
+                }
+            ]
+        },
+        {
+            "title": "Wanneer en waar?",
+            "item": 4,
+            "contents": [
+                {
+                    "content": "Wij starten iedere zaterdag om 9.00 uur en woensdag om 19.00 uur bij de parkeerplaats van het bos de Sysselt (Nieuwe Kazernelaan 4). In de wintermaanden starten we op de woensdagavond op een andere locatie, deze locatie wordt op de training bekend gemaakt. Duur training: één tot anderhalf uur (afhankelijk van soort training)."
+                }
+            ]
+        },
+        {
+            "title": "Hoe je aanmelden?",
+            "item": 5,
+            "contents": [
+                {
+                    "content": "Neem contact op met het secretariaat, via info@run2gether.nl wanneer je een keer wilt mee trainen. Er wordt dan samen bekeken welke groep het beste bij jouw loopniveau past. Op deze website onder Algemeen vind je ons inschrijfformulier"
+                }
+            ]
+        },
+        {
+            "title": "Lidmaatschap",
+            "item": 6,
+            "contents": [
+                {
+                    "content": "Om de kosten van Run2gether te dekken vragen wij een vergoeding van 50 euro per jaar."
+                }
+            ]
+        }
+    ]
+}

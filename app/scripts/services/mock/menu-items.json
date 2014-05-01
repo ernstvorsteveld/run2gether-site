@@ -1,0 +1,33 @@
+[
+    {
+        "id": "home",
+        "url": "/",
+        "name": "Home"
+    },
+    {
+        "id": "about",
+        "url": "about",
+        "name": "About us"
+    },
+    {
+        "id": "training",
+        "url": "training",
+        "name": "Training"
+    },
+    {
+        "id": "lidmaatschap",
+        "url": "lidmaatschap",
+        "name": "Lidmaatschap"
+    },
+    {
+        "id": "contact",
+        "url": "contact",
+        "name": "Contact"
+    },
+    {
+        "id": "foto",
+        "url": "foto",
+        "name": "Foto"
+    }
+]
+

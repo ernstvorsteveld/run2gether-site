@@ -1,0 +1,47 @@
+{
+    "title": "Lidmaatschap",
+    "contentItems": [
+        {
+            "title": "",
+            "item": 1,
+            "contents": [
+                {
+                    "content": "Het lidmaatschap wordt aangegaan voor de duur van een kalenderjaar. Opzeggen dient schriftelijk te geschieden, uiterlijk 31 Oktober van het lopend verenigingsjaar."
+                },
+                {
+                    "content": "Het rekeningnummer van de vereniging is: giro 2280524 t.n.v. Run2gether te Ede. Leden van Run2gether krijgen bij diverse hardloopzaken een aantrekkelijke korting op hardloop benodigdheden."
+                }
+            ]
+        },
+        {
+            "title": "Contributie",
+            "item": 2,
+            "contents": [
+                {
+                    "content": "De contributie bedraagt € 50,00 euro per lid, per jaar en wordt vooraf voor het hele jaar geïnd. Nieuwe leden die zich vanaf juni aanmelden betalen de helft van jaarcontributie."
+                }
+            ]
+        },
+        {
+            "title": "Inschrijven?",
+            "item": 3,
+            "contents": [
+                {
+                    "content": "Download een van de inschrijfformulieren. Vul deze in en mail deze naar het secretariaat. Inleveren op de training is natuurlijk ook goed."
+                }
+            ],
+            "links": [
+                {
+                    "title": "Inschrijven met een",
+                    "link": "images/inschrijfformulier run2gether.doc",
+                    "type": "Word document."
+                },
+                {
+                    "title": "Inschrijven met een",
+                    "link": "images/inschrijfformulier run2gether.pdf",
+                    "type": "PDF document."
+                }
+            ]
+        }
+    ]
+}
