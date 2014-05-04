@@ -29,11 +29,12 @@ body {
   color: #333;
 }
 
-.container {
-  background-color: #ffffff;
+.content {
+  background-color: transparent;
   padding-bottom: 140px;
   min-height: 100%;
   margin: 0px auto;
+  z-index: 500;
 }
 
 .menu {
@@ -42,6 +43,7 @@ body {
   width: 80%;
   padding-bottom: 40px;
   background-color: #ffffff;
+  z-index: 1000;
 }
 
 .page-end-line {
@@ -93,15 +95,50 @@ div.logo {
   width: 300px;
 }
 
-.content {
-  float: left;
-  width: 60%;
-  padding-right: 20px;
-  padding-bottom: 120px;
-}
-
 .movie-container {
   margin-top: 12px;
   float: left;
+}
+
+.news-list {
+}
+
+.news-items {
+}
+
+.news-item {
+  margin-bottom: 6px;
+}
+
+.news-item-image {
+}
+
+.news-item-text {
+}
+
+.news-item-image-portrait {
+  width: 30px;
+  height: auto;
+}
+
+.news-item-image-landscape {
+  width: auto;
+  height: 30px;
+}
+
+.news-items-header {
+  padding-top: 10px;
+}
+
+.news-item-picture {
+  padding-bottom: 12px;
+  width: 700px;
+  height: auto;
+}
+
+/* testing */
+.element {
+  //  border-style: solid;
+  //  border-color: black;
 }
 

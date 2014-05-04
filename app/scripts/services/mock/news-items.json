@@ -2,23 +2,19 @@
     {
         "title": "Horaloop 2013",
         "date": "10/01/2013",
-        "id": 1,
+        "id": 2,
         "url": "news/",
-        "image": "",
-        "info": "Lees meer over de horaloop 2013>>",
-        "details": {
-            "detail": "hi 2013"
-        }
+        "image": "images/news/horaloop.jpg",
+        "imageClass" :"news-item-image-landscape",
+        "info": "Lees meer over de horaloop 2013"
     },
     {
         "title": "Maarten Faas signeert zijn boek over hardlopen.",
         "date": "20/01/2013",
-        "id": 2,
+        "id": 1,
         "url": "news/",
+        "imageClass" :"news-item-image-portrait",
         "image": "images/news/maarten-signeert.png",
-        "info": "Maarten Faas signeert zijn boek over hardlopen!",
-        "details": {
-            "detail": "hi 2014"
-        }
+        "info": "Maarten Faas signeert zijn boek over hardlopen!"
     }
 ]

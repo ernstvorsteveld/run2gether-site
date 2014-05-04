@@ -10,5 +10,8 @@ define([
     './contact',
     './foto',
     './lidmaatschap',
-    './training'
-], function () {});
+    './training',
+    './news',
+    './newsitem'
+], function () {
+});

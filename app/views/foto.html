@@ -1,45 +1,10 @@
-<div id="menu">
-    <ng-include src="'views/tpl/menu.html'"></ng-include>
+<div class="container col-md-12">
+    <button class="btn btn-default btn-sm" ng-click="status.open = !status.open">Toggle last panel</button>
 </div>
 
 
-<div class="container slider">
-    <img ng-repeat="slide in slides" class="slide slide-animation nonDraggableImage"
-         ng-swipe-right="nextSlide()" ng-swipe-left="prevSlide()"
-         ng-hide="!isCurrentSlideIndex($index)" ng-src="{{slide.image}}">
-
-    <a class="arrow prev" href="#" ng-click="nextSlide()"></a>
-    <a class="arrow next" href="#" ng-click="prevSlide()"></a>
-    <nav class="nav">
-        <div class="wrapper">
-            <ul class="dots">
-                <li class="dot" ng-repeat="slide in slides">
-                    <a href="#" ng-class="{'active':isCurrentSlideIndex($index)}"
-                       ng-click="setCurrentSlideIndex($index);">{{slide.description}}</a></li>
-            </ul>
-        </div>
-    </nav>
-</div>
-
-<!--{{photos[0].id}}-->
-
-<!--<br>-->
-
-<!--{{photos[1].photos}}-->
-<!--<div class="container slider">-->
-<!--<img ng-repeat="photo in photos[0].photos" class="slide" ng-swipe-right="showPrev()" ng-swipe-left="showNext()"-->
-<!--ng-show="isActive($index)" ng-src="images/sets/{{photos[0].id}}/{{photo.src}}"/>-->
-
-<!--&lt;!&ndash; prev / next controls &ndash;&gt;-->
-<!--<a class="arrow prev" href="#" ng-click="showPrev()"></a>-->
-<!--<a class="arrow next" href="#" ng-click="showNext()"></a>-->
-
-<!--<ul class="nav">-->
-<!--<li ng-repeat="photo in photos[0].photos" ng-class="{'active':isActive($index)}">-->
-<!--<img src="images/sets/{{photos[0].id}}/{{photo.src}}"-->
-<!--alt="images/sets/{{photos[0].id}}/{{photo.description}}"-->
-<!--title="images/sets/{{photos[0].id}}/{{photo.description}}" ng-click="showPhoto($index);"/>-->
-<!--</li>-->
-<!--</ul>-->
-
+<div class="content col-md-8">
+    <div class="element col-md-8">3</div>
+    <div class="element col-md-1">9</div>
+    <div class="element col-md-3">9</div>
 </div>

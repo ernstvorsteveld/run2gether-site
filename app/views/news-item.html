@@ -1,5 +1,30 @@
-{{newsItem}}
+<div id="home-content" class="content col-md-10">
+    <a href back-button>back</a>
 
-<div id="menu">
+    <div class="col-md-8">
+        <h1>{{newsItem.title}}</h1>
+
+        <div ng-repeat="item in newsItem.contents">
+
+            <div ng-if="item.type == 'header'">
+                <h3>{{item.header}}</h3>
+
+                <p>{{item.content}}</p>
+            </div>
+            <div ng-if="item.type == 'paragraph'">
+                <h5>{{item.content}}</h5>
+                <ul>
+                    <li ng-repeat="listItem in item.list">{{listItem}}</li>
+                </ul>
+            </div>
+
+            <div ng-if="item.type == 'picture'">
+                <img ng-repeat="pictureUrl in item.urls" src="{{pictureUrl}}" class="news-item-picture"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="menu" class="menu">
     <ng-include src="'views/tpl/menu.html'"></ng-include>
 </div>

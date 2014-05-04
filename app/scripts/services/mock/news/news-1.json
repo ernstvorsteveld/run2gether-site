@@ -1,0 +1,31 @@
+{
+    "title": "Zoladztest",
+    "contents": [
+        {
+            "type": "header",
+            "header": "Zoladztest april 2014",
+            "content": "Op zaterdag 5 april 2014 deden we een Zoladztest op de oude atletiekbaan van de Elias Beekmankazerne in Ede. Hoe ziet die test er uit? Het principe van de Zoladztest is eenvoudig:"
+        },
+        {
+            "type": "paragraph",
+            "list": [
+                "Loop 5 x 6 minuten, respectievelijk 50, 40, 30, 20 en 10 slagen onder de maximale hartslag.",
+                "Neem tussen de verschillende ronde van 6 minuten steeds een korte pauze van ongeveer 2 minuten en noteer de gelopen afstand."
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "Wat is het doel van deze test? Het doel van het uitvoeren van een Zoladztest is tweeledig.",
+            "list": [
+                "Voor iedere hartslagzone wordt de gelopen afstand en daarmee de respectievelijke snelheid gemeten. Is de maximale hartslag bijvoorbeeld 190 slagen per minuut en wordt tijdens de eerste 6 minuten met een hartslag van 140 een afstand van 1200 meter gelopen, dan is dat omgerekend 12 km/uur voor de eerste hartslagzone (in 6 minuten 1200 meter lopen, betekent 10 x 6 minuten = 1 uur, dus 1200 meter in 6 minuten is 12 kilometer in 60 minuten).",
+                "De afstanden van de 5 x 6 minuten in de verschillende zones worden opgenomen en in een grafiek uitgezet. Deze moet idealiter een rechte lijn hebben. Als de lijn naar rechts aftopt, betekent dat er meer op die zones getraind moet worden. Als de lijn aan de linkerkant buigt, moet meer in de langere zones worden getraind. Op basis van de resultaten van een Zoladztest kan het trainingsprogramma worden opgesteld en/of bijgesteld."
+            ]
+        },
+        {
+            "type": "picture",
+            "urls": [
+                "images/news/maarten-signeert.png", "images/news/horaloop.jpg"
+            ]
+        }
+    ]
+}

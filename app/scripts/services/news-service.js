@@ -1,16 +1,25 @@
-define(['./module'], function (urlService) {
+define(['./module'], function (newsService) {
 
     'use strict';
 
-    urlService.service('urlService', function () {
+    newsService.service('newsService', function ($http) {
 
-        this.go = function ($location, url) {
-            $location.path(url);
+        this.loadItems = function ($scope, url) {
+            $http.get(url).success(
+                function (data) {
+                    $scope.newsItems = data;
+                }
+            )
         };
 
-        this.goNews = function ($location, url) {
-            $location.path(url);
+        this.loadItem = function($scope, url) {
+            $http.get(url).success(
+                function (data) {
+                    $scope.newsItem = data;
+                }
+            )
         }
+
     })
 });
 

@@ -10,7 +10,8 @@ require.config({
         'angularSanitize': '../bower_components/angular-sanitize',
         'angularRoute': '../bower_components/angular-route/angular-route',
         'angularMocks': '../bower_components/angular-mocks/angular-mocks',
-        'requireLib': '../bower_components/requirejs/require'
+        'requireLib': '../bower_components/requirejs/require',
+        'angulareBootstrat' : '../bower_components/angular-bootstrap/ui-bootstrap'
     },
     // angular does not support AMD out of the box, put it in a shim
     shim: {

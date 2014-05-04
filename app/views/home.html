@@ -1,12 +1,16 @@
-<div id="content">
-    <ng-include src="'views/tpl/home-content.html'"></ng-include>
-</div>
-
-<!--<div class="news-items">-->
-    <!--<ng-include src="'views/tpl/news.html'"/>-->
-<!--</div>-->
-
-<div class="menu">
+<div id="home-menu" class="menu">
     <ng-include src="'views/tpl/menu.html'"></ng-include>
 </div>
+
+<div id="home-content" class="content col-md-10">
+    <div class="element col-md-8">
+        <ng-include src="'views/tpl/home-content.html'"></ng-include>
+    </div>
+    <div class="element col-md-4">
+        <div class="news-list">
+            <ng-include src="'views/tpl/news.html'"/>
+        </div>
+    </div>
+</div>
+
 

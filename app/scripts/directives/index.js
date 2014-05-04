@@ -5,5 +5,6 @@
  * which avails each controller of, for example, the `config` constants object.
  **/
 define([
-    './directives'
+    './directives',
+    './back-button'
 ], function () {});

@@ -27,9 +27,14 @@ define(['./app'], function (R2GApp) {
             controller: 'ContactCtrl'
         });
 
+        $routeProvider.when('/news', {
+            templateUrl: '../views/tpl/news.html',
+            controller: 'NewsCtrl'
+        });
+
         $routeProvider.when('/news/:newsId', {
             templateUrl: 'views/news-item.html',
-            controller: 'NewsCtrl'
+            controller: 'NewsItemCtrl'
         });
 
         $routeProvider.when('/foto', {

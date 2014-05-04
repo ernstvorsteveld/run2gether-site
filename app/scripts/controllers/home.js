@@ -1,8 +1,8 @@
-define(['./module'], function (controllers, menuService, urlService) {
+define(['./module'], function (controllers) {
     'use strict';
 
-    controllers.controller('HomeCtrl', ['$scope', '$location', '$http', 'contentService', 'menuService', 'urlService',
-        function ($scope, $location, $http, contentService, menuService, urlService) {
+    controllers.controller('HomeCtrl', ['$scope', '$location', '$http', 'contentService', 'menuService', 'newsService','urlService',
+        function ($scope, $location, $http, contentService, menuService, newsService, urlService) {
 
             $scope.selectedMenuItem = 'home';
 
@@ -14,5 +14,7 @@ define(['./module'], function (controllers, menuService, urlService) {
             };
 
             contentService.loadItems($scope, './scripts/services/mock/home-items.json');
+            newsService.loadItems($scope, './scripts/services/mock/news-items.json');
+
         }]);
 });
