@@ -9984,6 +9984,7 @@ html, body {
 body {
   background: transparent;
   font-family: 'Play', sans-serif;
+  font-family: 'Antic Didone', serif;
   font-size: 12px;
   color: #333; }
 
@@ -10004,26 +10005,28 @@ body {
 
 .page-end-line {
   background-color: black;
-  height: 20px;
-  margin-bottom: 4px; }
+  height: 8px;
+  margin-bottom: 10px; }
 
 .menu-items {
   width: 70%;
   float: left; }
 
 .menu-item {
-  border-style: none;
   background: none;
   font-weight: normal;
   float: left;
-  margin-right: 8px;
+  margin-right: 30px;
   cursor: pointer;
-  display: block; }
+  display: block;
+  border-width: 1px;
+  border-bottom-style: solid; }
 
 .menu-item-selected {
   font-weight: bold;
   border-style: none;
-  border-bottom-style: solid; }
+  border-bottom-style: solid;
+  border-width: 2px; }
 
 img.logo {
   width: 240px; }
@@ -10040,7 +10043,8 @@ div.logo {
 
 .picture {
   height: auto;
-  width: 300px; }
+  width: 300px;
+  padding-top: 28px; }
 
 .movie-container {
   margin-top: 12px;
@@ -10066,3 +10070,11 @@ div.logo {
   height: auto; }
 
 /* testing */
+h5 {
+  margin-top: 26px; }
+
+h1 {
+  margin-bottom: 40px; }
+
+.links {
+  padding-top: 12px; }

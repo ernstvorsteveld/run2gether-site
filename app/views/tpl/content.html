@@ -2,18 +2,14 @@
     <h1>{{content.title}}</h1>
 
     <div ng-repeat="item in content.contentItems">
-        <h3>{{item.title}}</h3>
+        <h5>{{item.title}}</h5>
 
         <div ng-repeat="contentItem in item.contents">
             {{contentItem.content}}
         </div>
 
-        <div class="col-md-12">
-            <ul class="links-container">
-                <li class="link" ng-repeat="link in item.links">
-                    <b>{{link.title}}</b> <a href="{{link.link}}" target="_blank">{{link.type}}</a>
-                </li>
-            </ul>
+        <div class="links" ng-repeat="link in item.links">
+            <b>{{link.title}}</b> <a href="{{link.link}}" target="_blank">{{link.type}}</a>
         </div>
     </div>
 </div>
